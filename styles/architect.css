@@ -2,6 +2,71 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Shared Styles */
+
 * {
     font-family: "Work Sans", sans-serif;
 }
+
+.btn-primary {
+    
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(255,144,14,0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.nav-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    color: #131313;
+}
+
+nav > ul {
+    display: flex;
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* Banner Styles */
+
+.banner {}
+
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+}
+
