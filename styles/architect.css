@@ -23,6 +23,13 @@
     cursor: pointer;
 }
 
+.section-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+    color: #131313;
+}
+
 /* Header Styles */
 header {
     background-color: rgba(255,144,14,0.10);
@@ -33,13 +40,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.nav-title {
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin: 0;
-    color: #131313;
 }
 
 nav > ul {
